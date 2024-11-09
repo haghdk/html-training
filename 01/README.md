@@ -2,8 +2,6 @@
 
 Before we create an awesome website, we need to learn about **HTML** (HyperText Markup Language). It’s like the skeleton of our website and tells the computer what to show.
 
-HTML is written in special file called an HTML file. You _can_ give it any cool name you want, but the first file is almost always called "index". So our first HTML file would be called "index.html".
-
 ## What Are HTML Tags?
 
 HTML is made up of **tags**, which are like special words wrapped in angle brackets `< >`. Tags usually come in pairs: a **begin tag** and an **end tag**. 
@@ -29,7 +27,9 @@ Tags can contain text, images, or even other tags! For example, you might have:
 
 Some tags don’t need an end tag, like the image tag `<img />`. It looks like this:
 
-`<img src="my-puppy.jpg" width="200" height="200" alt="A cute puppy">`
+`<img src="my-puppy.jpg" width="200" height="200" alt="A cute puppy" />`
+
+*Notice how the tag has forward slash (`/`) before the last angle bracket.*
 
 #### What Are Attributes?
 Tags can also have attributes that give extra information. For example, in the image tag above:
