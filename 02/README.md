@@ -1,33 +1,46 @@
-# Task 02
+# Task 02: Let's Add Some Cool Tags to Our Webpage!
 
-Now that we have build our necessary HTML, we can start writing more tags to make our website look nice and with good content. These tags a not necessary but are used to contain content and later we will use them to "style" our website.
+Great job building your first HTML structure! Now, let’s level up and add more tags to make our website look awesome and filled with good content. These new tags aren't "must-haves," but they help organize your content and make your page way cooler. Plus, when we start styling, you’ll see just how fun things can get!
 
-## More tags
+## More HTML Tags!
 
-Remember in the previous intro task, that most HTML tags have a begin tag and an end tag.
+Remember from the last task that most HTML tags come with a start tag and an end tag. It’s like opening and closing a treasure chest—but for code!
 
-### div tag
+### The div tag
 
-Inside the `body` tag, start by writing a `div` tag. 
+First up, inside the `<body>` tag, let’s add a `div` tag. This tag is like a container, or a box, that holds other pieces of your webpage. 
 
+Write this in your code:
 `<div></div>`
 
-### header tag
+### The header tag
 
-Inside the begin `<div>` tag, write a `<header></header>` tag. This tag, as the name suggest, is the header of our website. It has many uses, like for example a navigation bar, and intro text or a large background image. We will use it for a background image.
+Now, inside your new `<div>` tag, write a `<header></header>` tag. This tag is like the top part of your webpage, where you can put things like a title, a navigation menu, or even a big, cool background image! We’ll add an image here later to make our site pop.
 
-### main tag
+Write this in your code:
+`<header></header>`
 
-Below the end `</header>` tag, write a `<main></main>` tag. This tag is used to contain the main content of our website. 
+### The main tag
 
-### section tag
+Right below your `</header>` tag, add a `<main></main>` tag. This tag is where the main content of your website will live. It’s like the main stage of a show — where all the action happens!
 
-Inside the `main` tag, write a `<section></section>` tag. This tag defines a whole section of our website, for example a section with text, text and image, a list and much more.
+Write this in your code:
+`<main></main>` 
 
-### footer tag 
+### The section tag
 
-After the `<main></main>` tag, write a `<footer></footer>` tag. This tag is has many purposes and can be used to contain an address and phone number, links to social media, a copyright text and so on. We will use it to display our website name and the current year.
+Now, let’s get creative! Inside your `<main>` tag, add a `<section></section>` tag. Think of this as a mini-stage where you can put text, pictures, lists, and other fun stuff. Each section can have its own theme or topic.
+
+It looks like this:
+`<section></section>`
+
+### The footer tag 
+
+Finally, after your `</main>` tag, write a `<footer></footer>` tag. This tag is like the bottom part of your website. It’s where you can put things like your name, a copyright notice, or even some cool social media links. For now, we’ll keep it simple and use it to show the website name and the current year.
+
+Write this:
+`<footer></footer>`
 
 ## Solution
 
-If if becomes to difficult, you can check the solution in the **02** folder
+If you get stuck, don’t worry! You can check out the full solution in the **02** folder for a sneak peek.

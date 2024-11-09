@@ -1,32 +1,43 @@
-# Task 01
+# Task 01: The Building Blocks of Our Website
 
-The first thing to do when building a website is to write the necessary *HTML* (HyperText Markup Language).
-HTML is written with "tags". An HTML begin tag can look like this: `<body>`, and an HTML end tag looks like this: `</body>`. 
+Before we create an awesome website, we need to learn about **HTML** (HyperText Markup Language). It’s like the skeleton of our website and tells the computer what to show.
 
-*Notice the forward slash before "body" in the end tag.*
+## What Are HTML Tags?
 
-It is very important to always remember the end tag (if the tag has an end tag). If we forget it, the website will look broken.
+HTML is made up of **tags**, which are like special words wrapped in angle brackets `< >`. Tags usually come in pairs: a **begin tag** and an **end tag**. 
 
-So a BODY tag looks like this: `<body></body>`, and everything inside the body tag is all that are visible on our website. 
+### Example:
+A simple tag looks like this:
+- **Start tag**: `<body>`
+- **End tag**: `</body>`
 
-Most HTML tags has a begin tag and an end tag, and some content between those tags, for example an image, some text, or even other HTML tags. 
+*Notice how the end tag has a forward slash (`/`) before the tag name.*
 
-There are some tags that does not have an end tag though, for example an image tag. It looks like this: `<img />`. *Notice the forward slash at the end.*
+Everything inside the `<body></body>` tags is what you’ll see on your website.
 
-HTML tags can also have some information inside them. Those are called *attributes* and can be used for many different purposes, depending on the tag. 
+### Tags Inside Tags
+Tags can contain text, images, or even other tags! For example, you might have:
+```
+<body>
+    <p>Hello, world!</p>
+</body>
+```
 
-An image tag for example, has different attributes to define what image file to load (`src`) which stands for "source", the size of the image (`width` and `height`) and a text to display if the image fails to load (`alt`) which stands for "alternative text". Like this:
+### Tags Without an End
 
-`<img src="my-yellow-car.jpg" width="200" height="200" alt="My yellow car">`
+Some tags don’t need an end tag, like the image tag `<img />`. It looks like this:
 
-There are a ton of different HTML tags and even more attributes.
+`<img src="my-puppy.jpg" width="200" height="200" alt="A cute puppy">`
 
-A list of them all can be seen [here](https://www.w3schools.com/tags/)
+#### What Are Attributes?
+Tags can also have attributes that give extra information. For example, in the image tag above:
 
+- `src` tells the browser which image to show.
+- `width` and `height` decide the size.
+- `alt` shows text if the image can’t load.
 
-## HTML Template
-
-So to begin our website we must start with the necessary HTML. This is the HTML that is needed for the browser to be able to even display our website.
+### The Starter Template
+To start, we need a basic template. This tells the browser, “Hey, this is a webpage!”
 
 ```
 <!DOCTYPE html>
@@ -34,7 +45,7 @@ So to begin our website we must start with the necessary HTML. This is the HTML 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Your Website Title</title>
 </head>
 <body>
     
@@ -42,14 +53,11 @@ So to begin our website we must start with the necessary HTML. This is the HTML 
 </html>
 ```
 
-We don't have the time to go into detail on every tag, but `<!DOCTYPE html>` tells the browser which type of HTML our website is written in. The `<html></html>` tag contains our entire website, with all the visible part, but also some information about our website in the `<head></head>` tag. The metadata. 
+#### What’s in This Code?
+- `<!DOCTYPE html>`: Tells the browser we’re using modern HTML.
+- `<html>`: Wraps the entire website.
+- `<head>`: Holds extra info (like the website’s name).
+- `<title>`: This is where you name your website. Make it fun!
+- `<meta>`: Gives information like text type (UTF-8) and how to display the site.
 
-Between the begin and end `<title></title>` tag, we write the name of the website. It can be whatever you want.
-
-Also notice the attributes in the `meta` tags. The **charset** defines the type of letters and numbers that our website contains. UTF-8 is normal letters and numbers.
-
-The **viewport**, **content** and **initial-scale** describes how to display the website on the screen.
-
-This is the basic HTML that we need for our website.
-
-You can choose to copy and paste it all, but the best way to learn is to write it yourself.
+Feel free to copy and paste this template or, even better, type it out yourself. Writing it helps you remember!
