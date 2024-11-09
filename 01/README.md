@@ -2,6 +2,8 @@
 
 Before we create an awesome website, we need to learn about **HTML** (HyperText Markup Language). It’s like the skeleton of our website and tells the computer what to show.
 
+HTML is written in special file called an HTML file. You _can_ give it any cool name you want, but the first file is almost always called "index". So our first HTML file would be called "index.html".
+
 ## What Are HTML Tags?
 
 HTML is made up of **tags**, which are like special words wrapped in angle brackets `< >`. Tags usually come in pairs: a **begin tag** and an **end tag**. 
@@ -35,6 +37,15 @@ Tags can also have attributes that give extra information. For example, in the i
 - `src` tells the browser which image to show.
 - `width` and `height` decide the size.
 - `alt` shows text if the image can’t load.
+
+### Create Your First HTML File
+Alright, let’s get this show on the road and create our first HTML file! HTML files are special documents where all the magic happens—they tell your browser what to show on the screen. You could name them anything wild like `awesome-website.html`, but the first page of a website is almost always called `index.html`. Think of it as the homepage’s secret code name. So, let's create `index.html` and start building your very own website!
+
+Start by creating a folder on your computer where you want to store your new website.
+
+Then start **VS Code** and in **VS Code**, select the folder you just created.
+
+<img src="../images/vscode-open.png" width="385px">
 
 ### The Starter Template
 To start, we need a basic template. This tells the browser, “Hey, this is a webpage!”
