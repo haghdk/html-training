@@ -53,7 +53,7 @@ To create the new HTML file in your folder, click the "new file" icon and name i
 
 
 ### The Starter Template
-To start, we need a basic template. This tells the browser, “Hey, this is a webpage!”
+To start our new website, we need a basic template in our new HTML file. This tells the browser, “Hey, this is a webpage!”
 
 ```
 <!DOCTYPE html>
