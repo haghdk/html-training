@@ -45,7 +45,12 @@ Start by creating a folder on your computer where you want to store your new web
 
 Then start **VS Code** and in **VS Code**, select the folder you just created.
 
-<img src="../images/vscode-open.png" width="385px">
+<img src="../images/vscode-open.png" width="300px">
+
+To create the new HTML file in your folder, click the "new file" icon and name it `index.html`
+
+<img src="../images/new-file.png" width="300px">
+
 
 ### The Starter Template
 To start, we need a basic template. This tells the browser, “Hey, this is a webpage!”
