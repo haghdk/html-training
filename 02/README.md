@@ -20,21 +20,25 @@ Now, inside your new `<div>` tag, write a `<header></header>` tag. This tag is l
 Write this in your code:
 `<header></header>`
 
-### The main tag
+### The Main Tag
 
 Right below your `</header>` tag, add a `<main></main>` tag. This tag is where the main content of your website will live. It’s like the main stage of a show — where all the action happens!
 
 Write this in your code:
 `<main></main>` 
 
-### The section tag
+### The Section Tag
 
 Now, let’s get creative! Inside your `<main>` tag, add a `<section></section>` tag. Think of this as a mini-stage where you can put text, pictures, lists, and other fun stuff. Each section can have its own theme or topic.
 
 It looks like this:
 `<section></section>`
 
-### The footer tag 
+### Add Another Section Tag
+
+Right after your newly created `<section></section>` tag, add another section tag, so that we now have two `<section></section>` tags we can use for some awesome content.
+
+### The Footer Tag 
 
 Finally, after your `</main>` tag, write a `<footer></footer>` tag. This tag is like the bottom part of your website. It’s where you can put things like your name, a copyright notice, or even some cool social media links. For now, we’ll keep it simple and use it to show the website name and the current year.
 

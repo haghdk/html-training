@@ -4,9 +4,9 @@ Now that we’ve got our HTML template ready, it’s time to start adding more t
 
 ## Add An H1 Header Tag
 
-Let’s kick things off by adding our very first header at the top of the page! We’ll use the `<h1></h1>` tag for this. The `<h1></h1>` tag is like the “main headline” of the webpage, so it’s perfect for making a big, bold statement.
+Let’s kick things off by adding our very first header at the top of the page! We’ll use the `<h1></h1>` tag for this. The `<h1></h1>` tag is like the “main headline” of the webpage, so it’s perfect for making a big, bold statement. It's common to only have **one** `<h1></h1>` on each `.html` file.
 
-Inside your `<header></header>` tag, add an `<h1></h1>` tag. Then, inside your new `<h1></h1>`, write an awesome, fun title for your page!
+Inside your `<header></header>` tag, add an `<h1></h1>` tag. Then, inside your new `<h1></h1>`, write an awesome, fun title for your page! 
 
 For example:
 
