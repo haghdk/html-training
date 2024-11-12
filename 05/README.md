@@ -4,7 +4,7 @@ Now that we’ve added some text, it’s time to make things even cooler with a 
 
 ## Adding An IMG Tag With Attributes
 
-Inside your second `<section></section>` tag, add an `<img>` tag. Remember from the first task that some tags don’t need a closing tag like `</img>`. The `<img>` tag is one of them!
+Inside your second `<section></section>` tag, add an `<img>` tag. Remember from the first task that some tags don’t need a closing tag like `</div>`. The `<img>` tag is one of them!
 
 Here’s what it looks like:
 `<img />`
