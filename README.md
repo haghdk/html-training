@@ -1,7 +1,7 @@
 # Let's Build a Website Together!
 
 
-Today, we’re going to do something super cool: we’re going to create a website! By the end of this little adventure, you’ll have your very own webpage to show off. If you’re curious about what we’re making, you can take a peek [here](http://www.hagh.dk). Ready? Let’s dive in!
+Today, we’re going to do something super cool: we’re going to create a website! By the end of this little adventure, you’ll have your very own webpage to show off. Ready? Let’s dive in!
 
 ## What Do We Need to Get Started?
 
