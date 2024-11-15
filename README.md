@@ -18,3 +18,5 @@ For today, we’ll use **Visual Studio Code**, or **VS Code** for short. It’s 
 Coding is like learning a new kind of superpower! You get to tell the computer what to do and bring your own ideas to life. Plus, who doesn’t want to say, “I made my own website!” by the end of the day?
 
 So, put on your creative hats and let’s get ready to code our way to awesomeness!
+
+**[LET'S BEGIN]**(https://github.com/haghdk/html-training/tree/master/01)
