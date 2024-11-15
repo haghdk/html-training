@@ -1,4 +1,4 @@
-# Task 08: Spice It Up!
+# Task 09: Spice It Up!
 Our website is looking much better than when we started, but let’s add a final touch to make it even cooler—a background image for the header!
 
 ## Add The Background Image
