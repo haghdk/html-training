@@ -19,4 +19,4 @@ Coding is like learning a new kind of superpower! You get to tell the computer w
 
 So, put on your creative hats and let’s get ready to code our way to awesomeness!
 
-**[LET'S BEGIN]**(https://github.com/haghdk/html-training/tree/master/01)
+**[LET'S BEGIN](https://github.com/haghdk/html-training/tree/master/01)**
